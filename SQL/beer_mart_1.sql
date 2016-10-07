@@ -53,25 +53,24 @@ CREATE TABLE `makanan` (
   `IdMakanan` int(11) NOT NULL,
   `Nama` varchar(255) DEFAULT NULL,
   `harga` int(11) DEFAULT NULL,
-  `stock` int(11) DEFAULT NULL,
-  `tipe` int(1) DEFAULT NULL,
+  `stock` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `makanan`
 --
 
-INSERT INTO `makanan` (`IdMakanan`, `Nama`, `harga`, `stock`, `tipe`) VALUES
-(1, 'MakA', 15000, 100,0),
-(2, 'MakB', 15000, 100,1),
-(3, 'MakC', 20000, 100,0),
-(4, 'MakD', 25000, 100,1),
-(5, 'MakE', 30000, 100,0),
-(6, 'MakF', 28000, 100,1),
-(7, 'MakG', 22000, 100,0),
-(8, 'MakH', 40000, 100,1),
-(9, 'MakI', 55000, 100,0),
-(10, 'MakJ', 60000, 100,1);
+INSERT INTO `makanan` (`IdMakanan`, `Nama`, `harga`, `stock`) VALUES
+(1, 'MakA', 15000, 100),
+(2, 'MakB', 15000, 100),
+(3, 'MakC', 20000, 100),
+(4, 'MakD', 25000, 100),
+(5, 'MakE', 30000, 100),
+(6, 'MakF', 28000, 100),
+(7, 'MakG', 22000, 100),
+(8, 'MakH', 40000, 100),
+(9, 'MakI', 55000, 100),
+(10, 'MakJ', 60000, 100);
 
 -- --------------------------------------------------------
 
