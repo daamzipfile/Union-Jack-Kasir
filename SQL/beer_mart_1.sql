@@ -75,8 +75,6 @@ INSERT INTO `makanan` (`IdMakanan`, `Nama`, `harga`, `stock`, `tipe`) VALUES
 
 -- --------------------------------------------------------
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `rokok`
 --
@@ -89,6 +87,20 @@ CREATE TABLE `rokok` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `cemilan`
+--
+
+CREATE TABLE `cemilan` (
+  `IdCemilan` int(11) NOT NULL,
+  `Nama` varchar(255) DEFAULT NULL,
+  `harga` int(11) DEFAULT NULL,
+  `stock` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
 
 --
 -- Table structure for table `member`
