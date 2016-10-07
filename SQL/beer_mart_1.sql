@@ -208,6 +208,19 @@ CREATE TABLE `pesanan_rokok` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `pesanan_cemilan`
+--
+
+CREATE TABLE `pesanan_cemilan` (
+  `IdPesanan` int(11) DEFAULT NULL,
+  `IdCemilan` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `pesanan_minuman`
 --
 
